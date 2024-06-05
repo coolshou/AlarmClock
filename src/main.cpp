@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 	QApplication a(argc, argv);
 	a.setWindowIcon(QIcon(":/AlarmClock/Resources/clock.png"));
 	
-	//×îºóÒ»¸ö¿ÉÊÓ»¯´°¿Ú¹Ø±ÕÊ±£¬²»ÍË³ö³ÌĞò
+	//æœ€å¾Œä¸€å€‹å¯è¦–åŒ–çª—å£é—œé–‰æ™‚ï¼Œä¸é€€å‡ºç¨‹åº
 	a.setQuitOnLastWindowClosed(false);
 
 	AlarmClock w;

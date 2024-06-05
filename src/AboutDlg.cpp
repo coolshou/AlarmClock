@@ -3,7 +3,7 @@
 AboutDlg::AboutDlg(QWidget *parent)
 	: QDialog(parent)
 {
-	//È¥µô?
+	//åŽ»æŽ‰?
 	Qt::WindowFlags flags = Qt::Dialog; flags |= Qt::WindowCloseButtonHint;
 	this->setWindowFlags(flags);
 	ui.setupUi(this);

@@ -55,7 +55,7 @@
       <normaloff>:/AlarmClock/Resources/clock.png</normaloff>:/AlarmClock/Resources/clock.png</iconset>
     </attribute>
     <attribute name="title">
-     <string>闹铃1</string>
+     <string>鬧鈴1</string>
     </attribute>
     <widget class="QLabel" name="label_2">
      <property name="geometry">
@@ -67,7 +67,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>响铃时间：</string>
+      <string>響鈴時間：</string>
      </property>
     </widget>
     <widget class="QComboBox" name="comboBoxHH1">
@@ -210,7 +210,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>时，</string>
+      <string>時，</string>
      </property>
     </widget>
     <widget class="QComboBox" name="comboBoxMM1">
@@ -546,7 +546,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>闹钟铃声：</string>
+      <string>鬧鐘鈴聲：</string>
      </property>
     </widget>
     <widget class="QComboBox" name="comboBoxRing1">
@@ -560,7 +560,7 @@
      </property>
      <item>
       <property name="text">
-       <string>铃声1</string>
+       <string>鈴聲1</string>
       </property>
      </item>
     </widget>
@@ -591,7 +591,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注意，时间到了！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注意，時間到了！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QPushButton" name="btnStart1Clock">
@@ -614,7 +614,7 @@ p, li { white-space: pre-wrap; }
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>开启闹铃</string>
+      <string>開啟鬧鈴</string>
      </property>
     </widget>
     <widget class="QToolButton" name="listenBtn1">
@@ -627,7 +627,7 @@ color: rgb(255, 255, 255);</string>
       </rect>
      </property>
      <property name="text">
-      <string>试听</string>
+      <string>試聽</string>
      </property>
     </widget>
     <widget class="QLabel" name="labelCountDown1">
@@ -653,7 +653,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
-      <string>倒计时！</string>
+      <string>倒計時！</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -666,7 +666,7 @@ color: rgb(170, 0, 0);</string>
       <normaloff>:/AlarmClock/Resources/clock.png</normaloff>:/AlarmClock/Resources/clock.png</iconset>
     </attribute>
     <attribute name="title">
-     <string>闹铃2</string>
+     <string>鬧鈴2</string>
     </attribute>
     <widget class="QLabel" name="label_7">
      <property name="geometry">
@@ -678,7 +678,7 @@ color: rgb(170, 0, 0);</string>
       </rect>
      </property>
      <property name="text">
-      <string>时，</string>
+      <string>時，</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_8">
@@ -704,7 +704,7 @@ color: rgb(170, 0, 0);</string>
       </rect>
      </property>
      <property name="text">
-      <string>闹钟铃声：</string>
+      <string>鬧鐘鈴聲：</string>
      </property>
     </widget>
     <widget class="QComboBox" name="comboBoxHH2">
@@ -851,7 +851,7 @@ color: rgb(170, 0, 0);</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注意，时间到了！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;注意，時間到了！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
     <widget class="QComboBox" name="comboBoxMM2">
@@ -1174,7 +1174,7 @@ p, li { white-space: pre-wrap; }
       </rect>
      </property>
      <property name="text">
-      <string>响铃时间：</string>
+      <string>響鈴時間：</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_11">
@@ -1210,7 +1210,7 @@ p, li { white-space: pre-wrap; }
 color: rgb(255, 255, 255);</string>
      </property>
      <property name="text">
-      <string>开启闹铃</string>
+      <string>開啟鬧鈴</string>
      </property>
     </widget>
     <widget class="QLabel" name="labelCountDown2">
@@ -1236,7 +1236,7 @@ color: rgb(255, 255, 255);</string>
 color: rgb(170, 0, 0);</string>
      </property>
      <property name="text">
-      <string>倒计时！</string>
+      <string>倒計時！</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -1253,7 +1253,7 @@ color: rgb(170, 0, 0);</string>
      </property>
      <item>
       <property name="text">
-       <string>铃声1</string>
+       <string>鈴聲1</string>
       </property>
      </item>
     </widget>
@@ -1267,7 +1267,7 @@ color: rgb(170, 0, 0);</string>
       </rect>
      </property>
      <property name="text">
-      <string>试听</string>
+      <string>試聽</string>
      </property>
     </widget>
    </widget>
@@ -1289,7 +1289,7 @@ color: rgb(170, 0, 0);</string>
    </property>
    <property name="font">
     <font>
-     <family>宋体</family>
+     <family>宋體</family>
      <pointsize>16</pointsize>
      <weight>75</weight>
      <bold>true</bold>

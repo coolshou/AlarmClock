@@ -57,7 +57,7 @@
      </font>
     </property>
     <property name="text">
-     <string>基本设置</string>
+     <string>基本設置</string>
     </property>
     <property name="icon">
      <iconset resource="AlarmClock.qrc">
@@ -86,7 +86,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>关于作者</string>
+     <string>關於作者</string>
     </property>
     <property name="icon">
      <iconset resource="AlarmClock.qrc">
@@ -136,7 +136,7 @@
       <string notr="true">color: rgb(115, 115, 86);</string>
      </property>
      <property name="text">
-      <string>开机自启动蜗牛闹铃</string>
+      <string>開機自啟動蝸牛鬧鈴</string>
      </property>
      <property name="checked">
       <bool>true</bool>
@@ -165,7 +165,7 @@
       <string notr="true">color: rgb(115, 115, 86);</string>
      </property>
      <property name="text">
-      <string>语音整点报时</string>
+      <string>語音整點報時</string>
      </property>
      <property name="checked">
       <bool>true</bool>

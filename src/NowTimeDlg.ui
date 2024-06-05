@@ -38,7 +38,7 @@
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 12pt &quot;华文中宋&quot;;
+    <string notr="true">font: 12pt &quot;華文中宋&quot;;
 color: rgb(170, 0, 0);</string>
    </property>
    <property name="text">

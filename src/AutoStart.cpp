@@ -4,13 +4,13 @@ FileName:		AutoStart
 Author:        	woniu201
 Email:         	wangpengfei.201@163.com
 Created:       	2019/05/05
-Description:	¿ª»ú×ÔÆô¶¯
+Description:	é–‹æ©Ÿè‡ªå•Ÿå‹•
 ********************************************************/
 #pragma execution_character_set("utf-8")
 #include <windows.h>
 
 /************************************
-@ Brief:		ÅĞ¶ÏÊÇ·ñ¿ª»ú×ÔÆô¶¯
+@ Brief:		åˆ¤æ–·æ˜¯å¦é–‹æ©Ÿè‡ªå•Ÿå‹•
 @ Author:		woniu201 
 @ Created:		2019/05/05
 @ Return:            
@@ -25,8 +25,8 @@ bool IsAutoStart()
 		return false;
 	}
 
-	//¶ÁÈ¡KEY
-	DWORD dwType = REG_SZ; //Êı¾İÀàĞÍ
+	//è®€å–KEY
+	DWORD dwType = REG_SZ; //æ•¸æ“šé¡å‹
 	DWORD cbData = 256;
 	ret = RegQueryValueExA(hKey, "AlarmClock", NULL, &dwType, (LPBYTE)value, &cbData);
 	if (ret == ERROR_SUCCESS)
@@ -45,7 +45,7 @@ bool IsAutoStart()
 }
 
 /************************************
-@ Brief:		ÉèÖÃ¿ª»ú×ÔÆô¶¯
+@ Brief:		è¨­ç½®é–‹æ©Ÿè‡ªå•Ÿå‹•
 @ Author:		woniu201 
 @ Created:		2019/05/05
 @ Return:            
@@ -54,7 +54,7 @@ bool SetAutoStart()
 {
 	HKEY hKey;
 	DWORD dwDisp;
-	DWORD dwType = REG_SZ; //Êı¾İÀàĞÍ
+	DWORD dwType = REG_SZ; //æ•¸æ“šé¡å‹
 
 	int ret = RegCreateKeyExA(HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Run", 0, NULL, REG_OPTION_NON_VOLATILE, KEY_ALL_ACCESS, NULL, &hKey, &dwDisp);
 	if (ret != ERROR_SUCCESS)
@@ -78,7 +78,7 @@ bool SetAutoStart()
 }
 
 /************************************
-@ Brief:		È¡Ïû¿ª»ú×ÔÆô¶¯
+@ Brief:		å–æ¶ˆé–‹æ©Ÿè‡ªå•Ÿå‹•
 @ Author:		woniu201 
 @ Created:		2019/05/06
 @ Return:            
