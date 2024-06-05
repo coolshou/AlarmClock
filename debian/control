@@ -1,0 +1,20 @@
+Source: alarmclock
+Section: utility
+Priority: optional
+Maintainer: coolshou <coolshou2060@gmail.com>
+Build-Depends: debhelper-compat (= 13), qtbase5-dev, make, qtmultimedia5-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/coolshou/AlarmClock
+#Vcs-Browser: https://salsa.debian.org/debian/alarmclock
+#Vcs-Git: https://salsa.debian.org/debian/alarmclock.git
+Rules-Requires-Root: no
+
+Package: alarmclock
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: PC Alarm Clock，using Qt development
+ 1. Two sets of alarms can be set at the same time.
+ 2. Alarm music can be selected.
+ 3. Flexibly set alarm prompts.
+ 4. Can be minimized to the tray.
+ 5. Voice time on the hour.
